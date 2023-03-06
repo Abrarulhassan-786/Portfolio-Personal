@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*First section header start*/
+#mainContainer {
+    background-color: #8E9193;
+    background-image: url('./images/abrar.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    border-top: 1px solid white;
+}
+
+ul>a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li {
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #D6DCE0;
+}
+li:hover{
+    color:lightblue;
+}
+#centermaterial {
+    opacity: 0.6;
+    color:white;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+#centermaterial p {
+    text-align: center;
+    font-size: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#centermaterial h1{
+    font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#centermaterial{
+    text-align: center;
+} 
+nav{
+    display: flex;
+    justify-content: center;
+}
+#menubar{
+    margin-top: 20px;
+    width: 4%;
+    height: 8vh;
+    margin-left: 10px;
+    display: none;
+}
+#menubar > img{
+    width: 100%;
+}
+/*First section header end*/
+
+/*Project done Portfolio Start*/
+
+#wrapperProject > #headingprojects{
+    text-align: center;
+    padding: 60px;
+    border-bottom: 1px dotted white;
+}
+
+#wrapperProject > #headingprojects > span{
+    font-size: 4em;
+}
+.containereachdiv{
+    width:28%;
+    margin: 9px;
+    resize: both;
+}
+.containereachdiv img{
+    width: 100%;
+}
+.captionProject{
+    text-align: center;
+}
+.captionProject h2{
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.captionProject p{
+    font-size: 1.3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#projectsline1{
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    display: flex;
+    width: 100%;
+} 
