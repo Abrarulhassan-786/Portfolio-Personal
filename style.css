@@ -107,3 +107,133 @@ nav{
 } 
 /*---project portflio done------*/
 
+/*------Project portfolio Resume*/
+#resumeHeader{
+    padding: 20px;
+}
+#resumeHeader h1{
+    text-align: center;
+}
+.resumecontainercenter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50vh;
+}
+.containerResume{
+    padding: 10px;
+    background-color: #8E9193;
+    margin: 50px;
+    border-radius:10px;
+    border-color: blue;
+}
+
+.headingContainer h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1em;
+}
+/*-------Project Portolio Resume End------*/
+
+/*-----Abour me Section Start--------*/
+#aboutsection{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+#image{
+    margin: 30px;
+}
+#abouttext{
+    margin: 30px;
+    width: 40%;
+}
+#cvHirebtn{
+    display: flex;
+}
+#hireMe{
+    padding: 10px;
+    margin: 20px;
+}
+#downloadcv{
+    margin: 20px;
+    padding: 10px;
+}
+/*-----------About me Section Endd-------------------*/
+
+/*----------our severice start -----------*/
+#ServeProvide{    
+    display: flex;
+    justify-content: center;
+}
+.serviceheading{
+    text-align: center;
+    padding: 20px;
+}
+.servicesectin{
+    margin: 20px;
+    width: 25%;
+    padding: 10px;
+}
+.imageSection{
+    
+    display: flex;
+    justify-content: center;
+}
+.imageSection img{
+    border-radius: 50%;
+}
+
+/*----------our severice End -----------*/
+/*----------Contact us Start---------*/
+#headingTouch{
+    width: 100%;
+}
+
+#containerformaddd{
+    display: flex;
+    justify-content: center;
+
+}
+#containerContact{
+    background-color: #8E9193;
+    width: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+#address{
+    background-color: #D6DCE0;
+    width: 40%;
+    margin: 10px;
+    padding: 10px;
+}
+.inoutData{
+    width: 90%;
+    padding: 15px;
+}
+#btn{
+    width: 30%;
+    padding: 15px;
+}
+.head{
+    
+    color:blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4em;
+}
+.imges{
+    width: 10%;
+}
+.imges img{
+    width: 50%;
+    border-radius: 50%;
+}
+#socialMedia{
+    display: flex;
+    justify-content: center;
+}
+#copyrighttext{
+    align-items: center;
+}
+#copyrighttext p{
+    align-items: center;
+}
