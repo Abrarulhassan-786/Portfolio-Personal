@@ -105,6 +105,7 @@ nav{
     display: flex;
     width: 100%;
 } 
+
 /*---project portflio done------*/
 
 /*------Project portfolio Resume*/
@@ -129,7 +130,6 @@ nav{
     height: 50vh;
 }
 .containerResume{
-    border: 1px solid red;
     padding: 10px;
     background-color: #8E9193;
     margin: 50px;
@@ -211,6 +211,15 @@ nav{
     display: flex;
     justify-content: center;
 }
+.headingServices h3{
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.texSection{
+    font-style: italic;
+    font-size: 1.1em;
+    word-spacing: 1px;
+}
 .serviceheading{
     text-align: center;
     padding: 20px;
@@ -234,7 +243,11 @@ nav{
 #headingTouch{
     width: 100%;
 }
-
+.headingTouchin{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #containerformaddd{
     display: flex;
     justify-content: center;
