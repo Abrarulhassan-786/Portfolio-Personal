@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+
 }
 /*First section header start*/
 #mainContainer {
@@ -75,7 +76,7 @@ nav{
 }
 
 #wrapperProject > #headingprojects > span{
-    font-size: 4em;
+    font-size: 3em;
 }
 .containereachdiv{
     width:28%;
@@ -101,18 +102,25 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 0px;
-
     display: flex;
     width: 100%;
 } 
 /*---project portflio done------*/
 
 /*------Project portfolio Resume*/
-#resumeHeader{
-    padding: 20px;
+
+.portfolioHead{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#resumeHeader h1{
+#resumeHeader{
     text-align: center;
+    padding: 20px;
+    font-size: 2.7em;
+}
+.ResumeHEaderText{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .resumecontainercenter{
     display: flex;
@@ -121,12 +129,27 @@ nav{
     height: 50vh;
 }
 .containerResume{
+    border: 1px solid red;
     padding: 10px;
     background-color: #8E9193;
     margin: 50px;
     border-radius:10px;
-    border-color: blue;
+    min-height: 75%;
 }
+.botomtext{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#D1D4D5;
+}
+.headingContainer > h3{
+    color: #D1D4D5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Resumeinformation{
+   font-size: 1em;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 .headingContainer h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -134,7 +157,30 @@ nav{
 }
 /*-------Project Portolio Resume End------*/
 
-/*-----Abour me Section Start--------*/
+/*-----About me Section Start--------*/
+#headingABout p{
+    font-size: 2.9em;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#aboutparagraph p{
+    font-size: 1.1em;
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 1px;
+}
+#hireMe{
+    font-size: 1.2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    border-color: white;
+}
+#downloadcv{
+    font-size: 1.2em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px;
+    border-color: white;
+}
 #aboutsection{
     padding: 10px;
     display: flex;
